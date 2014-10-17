@@ -1,0 +1,27 @@
+/* CSS Document */
+
+	
+	/***** reset css for all types suported ****/
+	
+	html, body, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, p, a, img, span, form, legend, label, fieldset, input, textarea, select, button, hr, table, tr, td, th { margin:0; padding:0;}
+	acronym, abbr { cursor: help}
+	
+	hr, legend { display:none; visibility:hidden;}
+	
+	img, fieldset { border:0;}
+	
+	ul, ol { list-style:none;}
+	
+	table { border:0; border-collapse:collapse; border-spacing:0;}
+	
+	caption { display:none; visibility:hidden; }
+	
+	button { border:none; line-height:1em; background:none; cursor:pointer; }
+	
+	.oculto { text-indent:-99999em; visibility:hidden; display:none;}
+	
+	/***  default tag styles ***/
+	body { background:#d8d8d8 url(../img/fnd_body.gif) repeat-x 0 0; text-align:center; font:11px Arial, Helvetica, sans-serif;}
+	
+	
+	a:hover { text-decoration:none;}

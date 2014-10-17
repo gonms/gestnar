@@ -1,0 +1,37 @@
+﻿.cuerpo
+{
+	background-color:#EAEAEA;
+}
+
+.enlace_equipo
+{
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+
+.enlace_equipo:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #000000;
+}
+
+#equipos
+{
+	float:left;
+	width:395px;
+	border:1px dashed;
+	height:250px;
+	overflow:auto;
+}
+
+#descripciones
+{
+	 clear:both;
+	 float:left;
+	 width:395px;
+	 border:1px dashed;
+	 height:250px;
+	 overflow:auto;
+}

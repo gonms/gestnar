@@ -1,0 +1,110 @@
+                <html xmlns:o="urn:schemas-microsoft-com:office:office"
+                xmlns:x="urn:schemas-microsoft-com:office:excel"
+                xmlns="http://www.w3.org/TR/REC-html40">
+
+                <head>
+                <meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+                <meta name=ProgId content=Excel.Sheet>
+                <!--[if gte mso 9]><xml>
+                 <o:DocumentProperties>
+                  <o:LastAuthor>EINAR</o:LastAuthor>
+                  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+                  <o:Version>10.2625</o:Version>
+                 </o:DocumentProperties>
+                 <o:OfficeDocumentSettings>
+                  <o:DownloadComponents/>
+                 </o:OfficeDocumentSettings>
+                </xml><![endif]-->
+                <style>
+                <!--table
+                    {mso-displayed-decimal-separator:"\.";
+                    mso-displayed-thousand-separator:"\,";}
+                @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+                tr
+                    {mso-height-source:auto;}
+                br
+                    {mso-data-placement:same-cell;}
+                .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:top;
+                    white-space:wrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+				.styleHeader
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:top;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:12.0pt;
+                    font-weight:800;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+                -->
+                </style>
+                <!--[if gte mso 9]><xml>
+                 <x:ExcelWorkbook>
+                  <x:ExcelWorksheets>
+                   <x:ExcelWorksheet>
+                    <x:Name>Hoja 1</x:Name>
+                    <x:WorksheetOptions>
+                     <x:Selected/>
+                     <x:ProtectContents>False</x:ProtectContents>
+                     <x:ProtectObjects>False</x:ProtectObjects>
+                     <x:ProtectScenarios>False</x:ProtectScenarios>
+                    </x:WorksheetOptions>
+                   </x:ExcelWorksheet>
+                  </x:ExcelWorksheets>
+                  <x:WindowHeight>10005</x:WindowHeight>
+                  <x:WindowWidth>10005</x:WindowWidth>
+                  <x:WindowTopX>120</x:WindowTopX>
+                  <x:WindowTopY>135</x:WindowTopY>
+                  <x:ProtectStructure>False</x:ProtectStructure>
+                  <x:ProtectWindows>False</x:ProtectWindows>
+                 </x:ExcelWorkbook>
+                </xml><![endif]-->
+                </head>
+
+                <body link=blue vlink=purple>
+                <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=styleHeader width=100 >ALBARAN</td><td class=styleHeader width=80 >FECHA</td><td class=styleHeader width=100 >PEDIDO</td><td class=styleHeader width=300 >CLIENTE</td><td class=styleHeader width=300 >OBRA</td><td class=styleHeader width=800 >MATERIAL</td></tr><tr><td class=style0>4819</td><td class=style0>13/12/2011</td><td class=style0>P-9554</td><td class=style0>EINAR</td><td class=style0></td><td class=style0>1 Anclaje de soporte</td></tr><tr><td class=style0>4868</td><td class=style0>13/03/2012</td><td class=style0>P-9554</td><td class=style0>EINAR</td><td class=style0>Aranjuez</td><td class=style0>1 C. plana 630 x 630. P-9554. (LEX),3 C. plana 400 x 400. P-9554. (LEX),1 C. plana 320 x 320. P-9554. (LEX)</td></tr><tr><td class=style0>4877</td><td class=style0>09/04/2012</td><td class=style0>P-9554</td><td class=style0>EINAR</td><td class=style0>ARANJUEZ</td><td class=style0>1 Compuerta plana 1000 x 1900 (LEX) P-9554-3,1 Compuerta plana 800 x 1400 (LEX) P-9554-3</td></tr><tr><td class=style0>4931</td><td class=style0>24/09/2012</td><td class=style0>P-9554</td><td class=style0>EINAR S.A.</td><td class=style0>ARANJUEZ</td><td class=style0>1 Conjunto de eje con soportes	
+,1 Tramo radial	
+,1 Encofrado perdido	
+,1 Palet incluyendo tornilleria (LEX)	
+          </td></tr><tr><td class=style0>4932</td><td class=style0>25/09/2012</td><td class=style0>P-9554</td><td class=style0>EINAR S.A.</td><td class=style0>ARANJUEZ</td><td class=style0>12 TRAMO DE ARCO,11 TRAMO RADIAL,24 CHAPA 923X40X4,24 CHAPA 182X40X4,24 CHAPA 2779X40X4,48 CANGILON</td></tr><tr><td class=style0>4935</td><td class=style0>05/10/2012</td><td class=style0>P/12-9554</td><td class=style0>AZUDA DE LA MONTAÑA</td><td class=style0>ARANJUEZ</td><td class=style0>1 Azuda de diámetro de 14,35 metros / 52 pies castellanos.,1 Reja de desbaste autoportante de limpieza manual, de forma trapezoidal de lado mayor 2,85 m, lado menor 2,65 m y 2,86 de altura. Realizada en acero corten.</td></tr><tr><td class=style0>4949</td><td class=style0>15/11/2012</td><td class=style0>P-9554</td><td class=style0>EINAR.S.A.</td><td class=style0>ARANJUEZ</td><td class=style0>1 COMPUERTA TAMBOR,1 CHAPA DE RECOGIDA DE AGUA SUPERIOR</td></tr><tr><td class=style0>4964</td><td class=style0>13/12/2012</td><td class=style0>P-9554</td><td class=style0>EINAR</td><td class=style0>ARANJUEZ</td><td class=style0>1 ESTRUCTURA DE LA NORIA CON CANAL,1 DEFLECTOR,1 CAJA INCLUYENDO:
+  HILTI M10X90  6 UND.
+  Arandela plana M10 4 und.
+  ,1 CAJA INCLUYENDO:
+  HILTI M12X120 8 UND.,1 CAJA INCLUYENDO:
+  Tornillo M12x20  9 und.
+  Tornillo M10x25  20 und.
+  Tuerca M10  36 und.
+  Varilla roscada M10 L=140  8 und.
+  Tuerca M12 7 und.
+  Tornillo M12x35  4 und.</td></tr></table></body></html>

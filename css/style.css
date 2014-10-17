@@ -1,0 +1,5 @@
+	/**** import for link css ****/
+	
+		@import url("common.css");					/* for common tags */
+		@import url("layout.css");					/* for structure tags */
+		@import url("presentation.css");			/* for presentation items */

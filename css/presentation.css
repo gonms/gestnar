@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/**** generic items ****/
+		
+		#header h1 { padding:0 0 0 15px;}
+		
+		.sinMenu { height:34px;}
+		
+		.txt01 { position:relative; top:-50px; margin:0 0 0 145px;color:#FF0000;font-weight:bold;}
+			
+	/**** a items ****/
+	
+	/**** list items ****/
+		
+		#navBar { position:relative; top:3px; z-index:1; float:left; clear:both; width:765px; padding:4px 0 0 20px;}
+			#navBar li { float:left; margin:0 1px 0 0;}
+			#navBar li.last { float:right; }
+			
+			#navBar li a { display:block; background:url(../img/pest_izq.gif) no-repeat 0 0; text-decoration:none; color:#333; text-align:center;}
+			#navBar li span { display:block; padding:6px 10px; background:url(../img/pest_drch.gif) no-repeat right 0; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; letter-spacing:-1px; text-align:center;}
+			
+			#navBar li.sel a, #navBar li a:hover { background:url(../img/pest_sel_izq.gif) no-repeat 0 0; color:#fff;}
+			#navBar li.sel a span, #navBar li a:hover span { background:url(../img/pest_sel_drch.gif) no-repeat right 0;}
+		
+			.navBar { float:left; width:650px; margin:-15px 0 0 120px; padding:0 0 30px 0;}
+				.navBar li { float:left; display:inline; height:145px; margin:0 15px 20px 0;}
+			
+				.navBar li a { text-decoration:none; display:block;}
+				.navBar li span { text-indent:-9000; visibility:hidden;}
+	
+				.navBar li.opt01 a { width:133px; height:143px; background:url(../img/opt01.gif) no-repeat 0 0;}
+				.navBar li.opt02 a { width:103px; height:143px; background:url(../img/opt02.gif) no-repeat 0 0;}
+				.navBar li.opt03 a { width:140px; height:143px; background:url(../img/opt03.gif) no-repeat 0 0;}
+				.navBar li.opt04 a { width:143px; height:140px; background:url(../img/opt04.gif) no-repeat 0 0;}
+				.navBar li.opt05 a { width:136px; height:140px; background:url(../img/opt05.gif) no-repeat 0 0;}
+				.navBar li.opt06 a { width:143px; height:140px; background:url(../img/opt06.gif) no-repeat 0 0;}
+				.navBar li.opt07 a { width:134px; height:143px; background:url(../img/opt07.gif) no-repeat 0 0;}	
+				.navBar li.opt08 a { width:144px; height:145px; background:url(../img/opt08.gif) no-repeat 0 0;}
+	
+				.navBar li.opt01 a:hover { background:url(../img/opt01_sel.gif) no-repeat 0 0;}
+				.navBar li.opt02 a:hover { background:url(../img/opt02_sel.gif) no-repeat 0 0;}
+				.navBar li.opt03 a:hover { background:url(../img/opt03_sel.gif) no-repeat 0 0;}
+				.navBar li.opt04 a:hover { background:url(../img/opt04_sel.gif) no-repeat 0 0;}
+				.navBar li.opt05 a:hover { background:url(../img/opt05_sel.gif) no-repeat 0 0;}
+				.navBar li.opt06 a:hover { background:url(../img/opt06_sel.gif) no-repeat 0 0;}	
+				.navBar li.opt07 a:hover { background:url(../img/opt07_sel.gif) no-repeat 0 0;}	
+				.navBar li.opt08 a:hover { background:url(../img/opt08_sel.gif) no-repeat 0 0;}	
+	
+				.navBar li.opt01.out a, .navBar li.opt01.out a:hover { background:url(../img/opt01_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt02.out a, .navBar li.opt02.out a:hover { background:url(../img/opt02_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt03.out a, .navBar li.opt03.out a:hover { background:url(../img/opt03_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt04.out a, .navBar li.opt04.out a:hover { background:url(../img/opt04_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt05.out a, .navBar li.opt05.out a:hover { background:url(../img/opt05_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt06.out a, .navBar li.opt06.out a:hover { background:url(../img/opt06_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt07.out a, .navBar li.opt07.out a:hover { background:url(../img/opt07_disabled.gif) no-repeat 0 0;}
+				.navBar li.opt08.out a, .navBar li.opt08.out a:hover { background:url(../img/opt08_disabled.gif) no-repeat 0 0;}		
+	
+		.user dl { float:left; padding:30px 10px 30px 30px; clear:both; width:277px; background:url(../img/fnd_user.gif) no-repeat 0 0; font:14px Arial, Helvetica, sans-serif;}
+			.user dl dt { float:left; width:120px; margin:0 0 15px 0;}
+			.user dl dt.small { width:65px;}
+			
+			.user dl dd { float:left; width:50px; margin:-5px 0 15px 0; font-weight:bold; font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#0505e3;}
+			
+	/**** form items ****/
+	
+		.login { position:relative; top:-35px; display:inline; float:left; width:350px; margin:0 0 15px 210px; background:url(../img/fnd_login02.gif) no-repeat 0 bottom;}
+			.login fieldset {float:left; width:350px; clear:both; padding:22px 0 20px 22px; margin:0; background:url(../img/fnd_login.gif) no-repeat 0 0;}
+			
+			.login ul { float:left; clear:both; width:100%;}
+				.login li { float:left; clear:both; width:100%; margin:5px 0 0 0;}
+				.login li.error { color:#900; font-weight:bold; margin:10px 0 5px 0;}
+			
+			.login label span { float:left; width:100px; font:18px Arial, Helvetica, sans-serif;}
+			.login label input[type=text] { float:left; width:195px; border:1px solid #ccc; font:11px Arial, Helvetica, sans-serif; color:#333}
+			.login label input[type=password] { float:left; width:195px; border:1px solid #ccc; font:11px Arial, Helvetica, sans-serif; color:#333}
+			
+			.login input[type=image] { position:absolute; right:25px; bottom:-25px; background:none; border:0; cursor:pointer; font:16px Arial, Helvetica, sans-serif; font-weight:bold; color:#fff;}
+			
+			.ofertas { width:762px; margin:0 auto; clear:both; text-align:left; font:11px arial;}
+				.ofertas .title { display:block; background:#666 url(../img/fnd_title.gif) repeat-x 0 bottom; padding:7px 10px 5px 7px; font-size:14px; color:#fff; font-weight:bold;}
+				.ofertas .title02 { display:block; clear:both; background:#f8f8f8; padding:3px 10px 0px 27px; margin:5px -10px 25px -10px; font-size:12px; color:#333; font-weight:bold;}
+				.ofertas fieldset { background:#eaeaea; padding:15px 10px; margin:0;}
+				
+				.ofertas label { margin:0 0 10px 0; display:block;}
+					.ofertas label span { display:inline; width:150px; float:left; margin:0 15px 0 0; text-align:right;}
+				
+				.ofertas input { padding:2px 0 2px 5px; margin:0 20px 0 0; border:1px solid #ccc; font:11px Arial, Helvetica, sans-serif; color:#333;}
+		
+				.ofertas textarea { padding:2px 0 2px 5px; margin:0 20px 0 0; border:1px solid #ccc; font:11px Arial, Helvetica, sans-serif; color:#333;}
+				.ofertas select { padding:2px 0 2px 5px; margin:0 20px 0 0; border:1px solid #ccc; font:11px Arial, Helvetica, sans-serif; color:#333;}
+
+				.ofertas .check { width:auto !important; padding:0; margin:0; border:0; float:none; clear:none;}
+			
+				.ofertas .datosOferta input, .ofertas .datosOferta textarea { width:250px;}
+				.ofertas .datosOferta select { width:257px;}
+
+				.ofertas .datosOferta .small input { width:47px;}
+				.ofertas .datosOferta .small select { width:89px;}
+				
+				.ofertas .datosCliente input, .ofertas .datosCliente textarea { width:250px;}
+				.ofertas .datosCliente select { width:257px;}
+				
+				.ofertas .datosEquipos input { width:60px; margin:0;}
+
+				.ofertas input.input01 { width:30px;}
+				.ofertas input.input02 { width:320px;}
+				.ofertas input.inputFecha { width:70px;}
+				.ofertas input.input100 { width:100px;}
+				.ofertas input.input50 { width:50px;}
+				.ofertas input.input70 { width:70px;}
+				.ofertas input.input90 { width:90px;}
+				.ofertas textarea { width:320px; height:70px; margin:0 0 10px 0;}
+				
+				.ofertas .checkboxes input { float:left;}
+				.ofertas .checkboxes label { float:left; width:49%;}
+					.ofertas .checkboxes label span { width:90%; float:left; margin:0 5px; text-align:left;}
+				
+				.ofertas .anyadidos { margin:10px 0 0 0; text-align:right;}
+				.ofertas .anyadidos label {}
+					.ofertas .anyadidos label span { width:auto; float:none;}
+				.ofertas .disabled {background-color:#DFD0B5;}
+	
+		/*** -- botones -- ***/
+		
+			input.btn02, input.btn03, input.btn04, input.btn05 { margin:10px 10px 10px 0; padding:10px 13px; background:none; border:0; cursor:pointer; font:16px Arial, Helvetica, sans-serif; font-weight:bold; color:#fff;}
+				div.btn02 { display:inline-block; float:left; background:url(../img/btn02_izq.gif) no-repeat 0 center;}
+					input.btn02 { height:42px; width:auto !important; background:url(../img/btn02_drch.gif) no-repeat right 0; margin-right:0;}
+					
+				div.btn03 { display:inline-block; float:right; background:url(../img/btn03_izq.gif) no-repeat 0 center;}
+					input.btn03 { height:42px; width:auto !important; background:url(../img/btn03_drch.gif) no-repeat right 0; margin-right:0;}
+				
+				div.btn04 { display:inline-block; float:left; background:url(../img/btn04_izq.gif) no-repeat 0 center; font-size:11px;}
+					input.btn04 { height:21px; width:auto !important; background:url(../img/btn04_drch.gif) no-repeat right 0; font-size:11px; padding:0 13px; margin:0;}
+					
+				label.btn04 { display:inline; float:right; margin:-30px 150px 0 0; background:url(../img/btn04_izq.gif) no-repeat 0 center; font-size:11px;}
+				
+				div.btn05 { display:inline-block; float:left; background:url(../img/btn05_izq.gif) no-repeat 0 center; font-size:11px;}
+					input.btn05 { height:21px; width:auto !important; background:url(../img/btn05_drch.gif) no-repeat right 0; font-size:11px; padding:0 13px; margin-right:0;}
+				
+				.datosCliente div.btn05 { display:inline; float:right; margin:0 15px 0 0;}
+				
+				.ofertas .datosEquipos .btn04 .btnPeque { width:60px !important;}
+					.ofertas .datosEquipos .btn04 input#btnPeque { width:60px !important;}
+		
+		
+	/**** table items ****/
+	
+		table { border-collapse:collapse; width:100%; border:1px solid #ccc;}
+		
+			table th { padding:5px 0 5px 5px; background:#999; border-top:1px solid #f8f8f8; border-bottom:1px solid #999; text-align:left; color:#fff;}
+			table td { padding:10px 0 2px 5px; border-top:1px solid #f8f8f8; border-bottom:1px solid #999; color:#666; text-align:left; vertical-align:top;}
+	
+	/**** module items ****/
+	
+		.module { position:relative; width:810px; padding:95px 0 0 0; background:url(../img/fnd_mod_top.gif) no-repeat 0 0;}
+		.module.inter { padding:45px 0 0 0; background:url(../img/fnd_mod_top02.gif) no-repeat 0 0;}
+		.module.inter02 { padding:90px 0 0 0; background:url(../img/fnd_mod_top02.gif) no-repeat 0 0;}
+		
+		.user { width:317px; position:absolute; right:15px; top:80px;}
+		.module.inter .user { top:20px;}
+
+		#logo {cursor: pointer;}		
+		#content #tabla_pedido_proveedores input { margin:0;}
+		#txtConfirmacion {color: #FF0000;font-style:italic;margin-left:180px;}
+		#txtInstruccion {margin: 0px; padding:0px}
+		#pie {margin:10px 0 10px 700px; color:#777777;}
+        #pieVersion {margin:10px 0 10px 629px; color:#777777;}
+		

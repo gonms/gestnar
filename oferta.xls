@@ -1,0 +1,96 @@
+                <html xmlns:o="urn:schemas-microsoft-com:office:office"
+                xmlns:x="urn:schemas-microsoft-com:office:excel"
+                xmlns="http://www.w3.org/TR/REC-html40">
+
+                <head>
+                <meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+                <meta name=ProgId content=Excel.Sheet>
+                <!--[if gte mso 9]><xml>
+                 <o:DocumentProperties>
+                  <o:LastAuthor>EINAR</o:LastAuthor>
+                  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+                  <o:Version>10.2625</o:Version>
+                 </o:DocumentProperties>
+                 <o:OfficeDocumentSettings>
+                  <o:DownloadComponents/>
+                 </o:OfficeDocumentSettings>
+                </xml><![endif]-->
+                <style>
+                <!--table
+                    {mso-displayed-decimal-separator:"\.";
+                    mso-displayed-thousand-separator:"\,";}
+                @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+                tr
+                    {mso-height-source:auto;}
+                br
+                    {mso-data-placement:same-cell;}
+                .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:top;
+                    white-space:wrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+				.styleHeader
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:top;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:12.0pt;
+                    font-weight:800;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+                -->
+                </style>
+                <!--[if gte mso 9]><xml>
+                 <x:ExcelWorkbook>
+                  <x:ExcelWorksheets>
+                   <x:ExcelWorksheet>
+                    <x:Name>Hoja 1</x:Name>
+                    <x:WorksheetOptions>
+                     <x:Selected/>
+                     <x:ProtectContents>False</x:ProtectContents>
+                     <x:ProtectObjects>False</x:ProtectObjects>
+                     <x:ProtectScenarios>False</x:ProtectScenarios>
+                    </x:WorksheetOptions>
+                   </x:ExcelWorksheet>
+                  </x:ExcelWorksheets>
+                  <x:WindowHeight>10005</x:WindowHeight>
+                  <x:WindowWidth>10005</x:WindowWidth>
+                  <x:WindowTopX>120</x:WindowTopX>
+                  <x:WindowTopY>135</x:WindowTopY>
+                  <x:ProtectStructure>False</x:ProtectStructure>
+                  <x:ProtectWindows>False</x:ProtectWindows>
+                 </x:ExcelWorkbook>
+                </xml><![endif]-->
+                </head>
+
+                <body link=blue vlink=purple>
+                <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=styleHeader width=100 ><b>NUMERO</b></td><td class=styleHeader width=80 ><b>FECHA</b></td><td class=styleHeader width=300 ><b>OBRA</b></td></tr><tr><td class=style0>OMB/12-3845-3</td><td class=style0>24/01/2012</td><td class=style0>Ab. a Mila, Constantine y regiones del Beni-Haroun (Argelia)</td></tr><tr><td class=style0>OMB/12-34097</td><td class=style0>04/01/2012</td><td class=style0>OBCA Marsella</td></tr><tr><td class=style0>OCS/12-5329</td><td class=style0>02/01/2012</td><td class=style0>INFRAESTRUC. RIEGO CON AGUAS DE EDAR VÍBORA</td></tr><tr><td class=style0>OMB/12-34098</td><td class=style0>06/01/2012</td><td class=style0>Argelia</td></tr><tr><td class=style0>OMB/12-34100</td><td class=style0>04/01/2012</td><td class=style0>Murcia</td></tr><tr><td class=style0>OMB/12-3714-2-3</td><td class=style0>10/01/2012</td><td class=style0>Conducción Azud de Aljaima-ETAP de El Atabal</td></tr><tr><td class=style0>OMB/12-34104</td><td class=style0>10/01/2012</td><td class=style0>Repuestos y ajustes MULTINAR</td></tr><tr><td class=style0>OCS/12-34106</td><td class=style0>10/01/2012</td><td class=style0>MOTA CONTRA INUNDACIONES ALBAT DE LA RIBERA</td></tr><tr><td class=style0>OMB/12-34101</td><td class=style0>09/01/2012</td><td class=style0>Sistema de telegestión de ETA Ait (Marruecos)</td></tr><tr><td class=style0>ORP/12-34096-a</td><td class=style0>10/01/2012</td><td class=style0>MOD. REG. SODETO Y ALBERUELA DE TUBO. CANAL DEL FLUMEN (HUESCA)</td></tr><tr><td class=style0>ORP/12-5327-b</td><td class=style0>04/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5327-c</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5327-d</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>OCS/12-5313-1</td><td class=style0>10/01/2012</td><td class=style0>Adecuación agrícola Haire M´Bare. Mauritania</td></tr><tr><td class=style0>ORP/12-5327-e</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5327-f</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5327-g</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5327-h</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5327-i</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>OMB/12-3902-1</td><td class=style0>16/01/2012</td><td class=style0>E.B. Alcala de Guadaira</td></tr><tr><td class=style0>OCS/12-34105</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-5327-j</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>OMB/12-34108</td><td class=style0>20/01/2012</td><td class=style0>DQE Tizi Ouzou</td></tr><tr><td class=style0>ORP/12-5327-k</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-5329-a</td><td class=style0>02/01/2012</td><td class=style0>INFRAESTRUC. RIEGO CON AGUAS DE EDAR VÍBORA</td></tr><tr><td class=style0>ORP/12-5327-l</td><td class=style0>09/01/2012</td><td class=style0>Mod. Regadío Canal del Páramo Sector IX.León.Fase I</td></tr><tr><td class=style0>ORP/12-34110</td><td class=style0>19/01/2012</td><td class=style0>AB. URB. COTORREDONDO Y MONTE BATRES</td></tr><tr><td class=style0>OMB/12-3563-2a-2</td><td class=style0>23/01/2012</td><td class=style0>Depósito de Nuevo Baztán</td></tr><tr><td class=style0>OMB/12-34111</td><td class=style0>24/01/2012</td><td class=style0>Retenar</td></tr><tr><td class=style0>OCS/12-5334</td><td class=style0>17/01/2012</td><td class=style0>MTO. ZR TIETAR, VALDECAÑAS Y ALCOLEA</td></tr><tr><td class=style0>OCS/12-5333</td><td class=style0>16/01/2012</td><td class=style0>MEJORA DRENAJE TAMARGUILLO</td></tr><tr><td class=style0>OCS/12-34112</td><td class=style0>25/01/2012</td><td class=style0>FOSO ACCESO ATRAQUES. PUERTO BARCELONA</td></tr><tr><td class=style0>ORP/12-34105-a</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-b</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-c</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-d</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-e</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-f</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-g</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-h</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-i</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-j</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-34105-k</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>ORP/12-5333-a</td><td class=style0>16/01/2012</td><td class=style0>MEJORA DRENAJE TAMARGUILLO</td></tr><tr><td class=style0>ORP/12-5333-b</td><td class=style0>16/01/2012</td><td class=style0>MEJORA DRENAJE TAMARGUILLO</td></tr><tr><td class=style0>ORP/12-5333-c</td><td class=style0>16/01/2012</td><td class=style0>MEJORA DRENAJE TAMARGUILLO</td></tr><tr><td class=style0>ORP/12-5334-a</td><td class=style0>17/01/2012</td><td class=style0>MTO. ZR TIETAR, VALDECAÑAS Y ALCOLEA</td></tr><tr><td class=style0>ORP/12-5334-b</td><td class=style0>17/01/2012</td><td class=style0>MTO. ZR TIETAR, VALDECAÑAS Y ALCOLEA</td></tr><tr><td class=style0>ORP/12-5329-b</td><td class=style0>02/01/2012</td><td class=style0>INFRAESTRUC. RIEGO CON AGUAS DE EDAR VÍBORA</td></tr><tr><td class=style0>OCS/12-5336</td><td class=style0>24/01/2012</td><td class=style0>Mto. Zona Reg. Ambroz</td></tr><tr><td class=style0>OCS/12-5329-c</td><td class=style0>02/01/2012</td><td class=style0>INFRAESTRUC. RIEGO CON AGUAS DE EDAR VÍBORA</td></tr><tr><td class=style0>OCS/12-5338</td><td class=style0>25/01/2012</td><td class=style0>DEPURADORA BENI MESSOUS ARGELIA</td></tr><tr><td class=style0>OMB/12-34113</td><td class=style0>31/01/2012</td><td class=style0>Repuestos Duosonic</td></tr><tr><td class=style0>OJM/12-5337</td><td class=style0>26/01/2012</td><td class=style0>U. Valle</td></tr><tr><td class=style0>OMB/12-34114</td><td class=style0>26/01/2012</td><td class=style0>Retenar ambiente salino</td></tr><tr><td class=style0>OCS/12-5334-c</td><td class=style0>17/01/2012</td><td class=style0>MTO. ZR TIETAR, VALDECAÑAS Y ALCOLEA</td></tr><tr><td class=style0>OMB/12-5339</td><td class=style0>30/01/2012</td><td class=style0>Station d'épuration dans les Bouches du Rhône</td></tr><tr><td class=style0>ORP/12-5334-d</td><td class=style0>30/01/2012</td><td class=style0>MTO. ZR TIETAR, VALDECAÑAS Y ALCOLEA</td></tr><tr><td class=style0>ORP/12-5329-d</td><td class=style0>30/01/2012</td><td class=style0>INFRAESTRUC. RIEGO CON AGUAS DE EDAR VÍBORA</td></tr><tr><td class=style0>ORP/12-5329-d</td><td class=style0>02/01/2012</td><td class=style0>INFRAESTRUC. RIEGO CON AGUAS DE EDAR VÍBORA</td></tr><tr><td class=style0>ORP/12-34106-a</td><td class=style0>31/01/2012</td><td class=style0>MOTA CONTRA INUNDACIONES ALBAT DE LA RIBERA</td></tr><tr><td class=style0>OCS/12-34105-l</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>OCS/12-34105-l</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>OCS/12-34105-1</td><td class=style0>11/01/2012</td><td class=style0>CANAL BAJO GUADALQUIVIR-EMBALSE TORRE ÁGUILA</td></tr><tr><td class=style0>OCS/12-5334-e</td><td class=style0>30/01/2012</td><td class=style0>MTO. ZR TIETAR, VALDECAÑAS Y ALCOLEA</td></tr><tr><td class=style0>OMB/12-3680-2</td><td class=style0>30/01/2012</td><td class=style0>Ashdod Desalination Plant Project</td></tr><tr><td class=style0>OEH/12-5330</td><td class=style0>02/01/2012</td><td class=style0>No se ha hecho oferta</td></tr><tr><td class=style0>OEH/12-5331</td><td class=style0>12/01/2012</td><td class=style0>No se ha hecho oferta</td></tr><tr><td class=style0>OEH/12-5332</td><td class=style0>16/01/2012</td><td class=style0>Nueva toma A-XVII-a. Canal de Orellana</td></tr><tr><td class=style0>OEH/12-5335</td><td class=style0>20/01/2012</td><td class=style0>No se ha hecho oferta</td></tr><tr><td class=style0>OEH/12-34099</td><td class=style0>09/01/2012</td><td class=style0>No se ha hecho oferta</td></tr><tr><td class=style0>OEH/12-34102</td><td class=style0>10/01/2012</td><td class=style0>Se ha hecho oferta aparte</td></tr><tr><td class=style0>OEH/12-34103</td><td class=style0>10/01/2012</td><td class=style0>Se ha hecho oferta aparte</td></tr><tr><td class=style0>OEH/12-34109</td><td class=style0>23/01/2012</td><td class=style0>No se ha hecho oferta</td></tr><tr><td class=style0>OMB/12-34108-1</td><td class=style0>20/01/2012</td><td class=style0>DQE Tizi Ouzou</td></tr></table></body></html>

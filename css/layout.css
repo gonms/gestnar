@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/*** layout elements ****/
+	
+		#wrapper { width:808px; margin:0 auto; text-align:left;}
+			#header { clear:both; width:100%;}
+				
+			#content { clear:both; width:100%; background:url(../img/fnd_modulo_bottom.gif) no-repeat 0 bottom;}
+			#home #content {padding:0 0 50px 0; margin:34px 0 0 0; }
+			
+		#header:after, #content:after{ content:" "; display:block; height:0; visibility:hidden; clear:both;}
