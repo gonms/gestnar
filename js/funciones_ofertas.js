@@ -228,7 +228,7 @@ function nuevoEquipo(id)
 	$("#tabla_equipos").append(tr);
 	
     num_equipos = parseInt(num_equipos) + 1;
-	document.getElementById('num_equipos').value = num_equipos; 
+document.getElementById('num_equipos').value = num_equipos; 
     document.getElementById('referencia_nuevo').value = "";
     document.getElementById('descripcion_nuevo').value = "";
     document.getElementById('cantidad_nuevo').value = "";
