@@ -230,22 +230,21 @@
                     <span class="title" onClick="toggle('fset_equipos')" style="cursor:pointer">Equipos</span>                        
                     <fieldset id="fset_equipos" class="datosEquipos">
                         <table>
-							<colgroup><col width="75" /><col width="360" /><col width="78" /><col width="90" /><col width="90" /><col width="75" /></colgroup>
+							<colgroup><col width="75" /><col width="360" /><col width="78" /><col width="75" /><col width="90" /><col width="90" /></colgroup>
                             <tr>
                                 <th>Referencia</th>
                                 <th>Descripción</th>
                                 <th>Cantidad</th>
-                                <!--<th>Descuento</th>-->
+                                <th>Descuento</th>
                                 <th>Precio</th>
-                                <th></th>
                                 <th></th>
                             </tr>
                         </table>
                         <table id="tabla_equipos">
-                        	<colgroup><col width="75" /><col width="360" /><col width="78" /><col width="90" /><col width="90" /><col width="75" /></colgroup>
+                        	<colgroup><col width="75" /><col width="360" /><col width="78" /><col width="75" /><col width="90" /><col width="90" /></colgroup>
                         </table>
                         <table>
-							<colgroup><col width="75" /><col width="360" /><col width="78" /><col width="90" /><col width="90" /><col width="75" /></colgroup>
+							<colgroup><col width="75" /><col width="360" /><col width="78" /><col width="75" /><col width="90" /><col width="90" /></colgroup>
                             <tr>
                                 <td colspan="6">Nuevo Equipo</td>
                             </tr>
@@ -253,9 +252,8 @@
                                 <th>Referencia</th>
                                 <th>Descripción</th>
                                 <th>Cantidad</th>
-                                <!--<th>Descuento</th>-->
+                                <th>Descuento</th>
                                 <th>Precio</th>
-                                <th></th>
                                 <th></th>
                             </tr>
 
@@ -263,7 +261,7 @@
                                 <td><input type="text" id="referencia_nuevo" name="referencia_nuevo"/></td>
                                 <td><textarea rows="0" cols="0" id="descripcion_nuevo" name="descripcion_nuevo"></textarea></td>
                                 <td><input type="text" class="input01" id="cantidad_nuevo" name="cantidad_nuevo"/></td>
-                                <!--<td><input type="text" class="input01" id="descuento_nuevo" name="descuento_nuevo"/></td>-->
+                                <td><input type="text" class="input01" id="descuento_nuevo" name="descuento_nuevo"/></td>
                                 <td><input type="text" id="precio_nuevo" name="precio_nuevo"/></td>
                                 <td>
                                     <div class="btn04 btnPeque">

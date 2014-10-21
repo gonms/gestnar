@@ -169,7 +169,7 @@ function imprimir(tabla, id)
 {
 if (tabla == 'oferta')
         {
-                if (confirm(String.fromCharCode(192) + "Imprimir el total?"))
+                if (confirm(String.fromCharCode(191) + "Imprimir el total?"))
                 {
                         window.open('oferta_pdf.php?id_' + tabla + '=' + id + '&sumar=1&paginas=','');
                 }

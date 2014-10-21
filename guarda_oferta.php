@@ -60,6 +60,7 @@
 		$equipos->setReferencia(str_replace("'","\'",$_POST['referencia_' . $i]));
 		$equipos->setDescripcion(str_replace("'","\'",$_POST['descripcion_' . $i]));
 		$equipos->setCantidad($_POST['cantidad_' . $i]);
+		$equipos->setDescuento($_POST['descuento_' . $i]);
 		$equipos->setPrecio(str_replace(",",".",$_POST['precio_' . $i]));
 		$equipos->setIdOferta($id_oferta);
 			

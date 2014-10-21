@@ -215,6 +215,7 @@ function nuevoEquipo(id)
 	tr += "<td><input name='referencia_" + idRow + "' id='referencia_" + idRow + "' type='text' value='" + $('#referencia_nuevo').val() + "' /></td>\n";
 	tr += "<td><textarea name='descripcion_" + idRow + "' id='descripcion_" + idRow + "' cols='0' rows='0'>" + $('#descripcion_nuevo').val() + "</textarea></td>\n";
 	tr += "<td><input name='cantidad_" + idRow + "' id='cantidad_" + idRow + "' type='text' class='input01' value='" + $('#cantidad_nuevo').val() + "' /></td>\n";
+	tr += "<td><input name='descuento_" + idRow + "' id='descuento_" + idRow + "' type='text' class='input01' value='" + $('#descuento_nuevo').val() + "' /></td>\n";
 	tr += "<td><input name='precio_" + idRow + "' id='precio_" + idRow + "' type='text' value='" + $('#precio_nuevo').val() + "' /></td>\n";
 	tr += "<td>\n";
 	tr += "	<a href='#' onClick='buscar_equipos(\"" + idRow + "\")' alt='Buscar equipo' title='Buscar equipo'><img src='img/buscar.jpg' height='20' width='20' border='0' /></a>\n";
@@ -231,6 +232,7 @@ function nuevoEquipo(id)
     document.getElementById('referencia_nuevo').value = "";
     document.getElementById('descripcion_nuevo').value = "";
     document.getElementById('cantidad_nuevo').value = "";
+    document.getElementById('descuento_nuevo').value = "";
     document.getElementById('precio_nuevo').value = "";
 }
 
