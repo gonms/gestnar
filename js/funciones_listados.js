@@ -173,6 +173,10 @@ if (tabla == 'oferta')
                 {
                         window.open('oferta_pdf.php?id_' + tabla + '=' + id + '&sumar=1&paginas=','');
                 }
+		else
+		{
+			window.open('oferta_pdf.php?id_' + tabla + '=' + id + '&paginas=','');
+		}
         }
         else
                 window.open(tabla + '_pdf.php?id_' + tabla + '=' + id + '&paginas=','');
