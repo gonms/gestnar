@@ -167,7 +167,6 @@ $().ready(function()
 
 function imprimir(tabla, id)
 {
-	alert(tabla);	
 if (tabla == 'oferta')
         {
                 if (confirm(String.fromCharCode(192) + "Imprimir el total?"))
