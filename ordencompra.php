@@ -43,6 +43,7 @@
             <li <?php echo (($accion == "modificar")?"class='first sel'":"");?>><a href="ordencompra.php?accion=modificar"><span>Modificar</span></a></li>
             <li <?php echo (($accion == "revision")?"class='first sel'":"");?>><a href="ordencompra.php?accion=revision"><span>Revisión</span></a></li>
 			<li <?php echo (($accion == "nuevo")?"class='first sel'":"");?>><a href="ordencompra.php?accion=nuevo"><span>Nuevo</span></a></li>
+<li <?php echo (($accion == "duplicar")?"class='first sel'":"");?>><a href="ordencompra.php?accion=duplicar"><span>Duplicar</span></a></li>
 			<li class="last"><a href="#" id="volver"><span>Volver</span></a></li>
         </ul>
         <hr />
@@ -91,7 +92,7 @@
                         	<span>Número de orden</span>
 							<input type="text" size="12" id="numero_ordencompra" name="numero_ordencompra"/>
 						</label>
-						<?php if ($accion != "nuevo")
+						<?php if ($accion != "nuevo" && $accion != "duplicar")
 						{
 						?>
 						<label>
@@ -102,6 +103,15 @@
 									echo "(El número de revisión se calcula automáticamente)";
 							?>
 						</label>
+						<?php
+						}
+						else if ($accion == "duplicar")
+						{
+						?>
+						<label>
+                                                        <span>Nuevo número</span>
+                                <input type="text" class="input100" id="nuevo_numero" name="nuevo_numero" />
+                                                </label>
 						<?php
 						}
 						?>

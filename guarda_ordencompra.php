@@ -6,7 +6,14 @@
 
 	$ordencompra = new OrdenCompra();	
     $ordencompra->setIdPedido($_POST['id_pedido']);
-    $ordencompra->setNumero($_POST['numero_ordencompra']);
+	if ($_POST['accion'] == "duplicar")    
+{
+$ordencompra->setNumero($_POST['nuevo_numero']);
+}
+else
+{
+$ordencompra->setNumero($_POST['numero_ordencompra']);
+}
     $ordencompra->setCodigo($_POST['codigo_ordencompra']);    
     $ordencompra->setFecha(dateToMy($_POST['fecha']));
     $ordencompra->setIdProveedor($_POST['id_proveedor']);
@@ -51,7 +58,7 @@
 	{
 		$equipos->setReferencia(str_replace("'","\'",$_POST['referencia_' . $i]));
 		$equipos->setDescripcion(str_replace("'","\'",$_POST['descripcion_' . $i]));
-		$equipos->setCantidad($_POST['cantidad_' . $i]);
+		$equipos->setCantidad(str_replace(",",".",$_POST['cantidad_' . $i]));
 		$equipos->setPrecio(str_replace(",",".",$_POST['precio_' . $i]));
 		$equipos->setIdOrdenCompra($id_ordencompra);
 			

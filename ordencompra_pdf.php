@@ -183,7 +183,7 @@ class PDF extends FPDF
         
         //if ($this->PageNo() == $this->num_paginas)
         //{
-            $total = number_format($this->sum_precio,1,',','.');
+            
             $portes = $this->ordencompra->getPortes();
             $condiciones_pago = $this->ordencompra->getCondicionesPago();
             $vistobueno = $this->ordencompra->getVistoBueno();
@@ -198,11 +198,15 @@ class PDF extends FPDF
         $this->SetX(10);        
         $this->SetY($posY);
 
-        //TOTAL        
+        //TOTAL
+        if ($this->PageNo() == $this->num_paginas)
+        {   
+        $total = number_format($this->sum_precio,1,',','.');     
         $this->SetFont('Arial','B',10);
         $this->Cell($w[0],7,'','LR',0);
         $this->Cell($w[1],7,'TOTAL (s/I.V.A.):','LT',0,'R');
         $this->Cell(72,7,$total,'TR',1,'R');        
+        }
         
         //doc adjuntar
         $this->Cell($w[0],5,'','L',0);
@@ -335,11 +339,11 @@ class PDF extends FPDF
             $this->SetY($y1);
             $this->SetX($x + $w[0] + $w[1]);
             
-            $this->Cell($w[2], 5, $array_cantidades[$i], 'L', 0, 'R');
+            $this->Cell($w[2], 5, number_format($array_cantidades[$i],2,',','.'), 'L', 0, 'R');
             
             $tot_precio = $array_precio[$i] * $array_cantidades[$i];
-            $this->Cell($w[3], 5, number_format($array_precio[$i], 1,',','.'), 'L', 0, 'R');
-            $this->Cell($w[4], 5, number_format($tot_precio, 1,',','.'), 'LR', 0, 'R');
+            $this->Cell($w[3], 5, number_format($array_precio[$i], 2,',','.'), 'L', 0, 'R');
+            $this->Cell($w[4], 5, number_format($tot_precio, 2,',','.'), 'LR', 0, 'R');
             $this->sum_precio += $tot_precio;
                         
             //relleno de las lineas
@@ -393,7 +397,14 @@ for ($i=0;$i<count($aEquipos);$i++)
 	$total_alto += $pdf->dameAlto($aEquipos[$i]['descripcion']);
 }
 
-$pdf->num_paginas = ceil((97 + $total_alto) / 222);  //TODO: optimizar
+if (!empty($_GET['paginas']) && $_GET['paginas'] > 0)
+{
+	$pdf->num_paginas = $_GET['paginas'];
+}
+else
+{
+	$pdf->num_paginas = ceil((97 + $total_alto) / 190);  //TODO: optimizar
+}
 
 $saltos=substr_count ($pdf->ordencompra->getDocumentacionIncluir(),"\n");
 $pdf->altoDocIncluir = (4 * ($saltos - 1));

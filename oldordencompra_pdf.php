@@ -198,11 +198,14 @@ class PDF extends FPDF
         $this->SetX(10);        
         $this->SetY($posY);
 
-        //TOTAL        
+        //TOTAL    
+        if ($this->PageNo() == $this->num_paginas)
+        {    
         $this->SetFont('Arial','B',10);
         $this->Cell($w[0],7,'','LR',0);
-        $this->Cell($w[1],7,'TOTAL (s/I.V.A.):','LT',0,'R');
-        $this->Cell(72,7,$total,'TR',1,'R');        
+        $this->Cell($w[1],7,'TAL (s/I.V.A.):','LT',0,'R');
+        $this->Cell(72,7,$this->PageNo() . "--".$this->num_paginas,'TR',1,'R');        
+        }
         
         //doc adjuntar
         $this->Cell($w[0],5,'','L',0);
