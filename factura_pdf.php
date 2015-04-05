@@ -249,12 +249,43 @@ class PDF extends FPDF
 				
 				if ($importe_retencion == 0) $importe_retencion = "";
 				if ($porcentaje_retencion == 0) $porcentaje_retencion = "";
+            
             }
             else
             {
-                $total = $subtotal;
+                $porcentaje_retencion = $this->factura->getPorcentajeRetencion();
+                //$porcentaje_iva = $this->factura->getIVA();
+                $porcentaje_iva = 0;
+                $importe_retencion = $this->sum_precio * ($porcentaje_retencion / 100);
+                
+                if ($this->factura->getTipoRetencion() == 'sin_iva')
+                {
+                    $base_iva = $this->sum_precio;
+                    //$importe_iva = $base_iva * ($porcentaje_iva / 100);
+                    $importe_iva = 0;
+                    $total = number_format($base_iva - $importe_retencion + $importe_iva,2,',','.');
+                }
+                else //($this->factura->getTipoRetencion() == 'con_iva')
+                {
+                    $base_iva = $this->sum_precio - $importe_retencion;
+                    //$importe_iva = $this->sum_precio * ($porcentaje_iva / 100);
+                    $importe_iva = 0;
+                    $total = number_format($base_iva + $importe_iva,2,',','.');
+                }
+                
+                $base_iva = number_format($base_iva,2,',','.');
+                $importe_iva = number_format($importe_iva,2,',','.');
+                $importe_retencion = number_format($importe_retencion,2,',','.');
+                
+                if ($importe_retencion == 0) $importe_retencion = "";
+                if ($porcentaje_retencion == 0) $porcentaje_retencion = "";
+                if ($importe_iva == 0) $importe_iva = "";
+                if ($porcentaje_iva == 0) $porcentaje_iva = "";
+
+                //$total = $subtotal;
             }
-			
+
+
 			$num_cuenta = $this->factura->getNumeroCuenta();
 			$forma_pago_factura = $this->factura->getFormaPago();
             if (empty($forma_pago_factura))
